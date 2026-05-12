@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data & results (large files, generated outputs)
+data/
+results/
+
+# Model checkpoints & binaries
+*.pkl
+*.pt
+*.pth
+*.ckpt
+
+# Databases
+*.db
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+wandb/
