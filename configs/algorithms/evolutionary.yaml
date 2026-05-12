@@ -1,0 +1,8 @@
+name: evolutionary
+pop_size: 30           # population size
+num_generations: 20    # number of evolution generations
+tournament_k: 5        # tournament size for parent selection
+elite_k: 3             # elite individuals carried over each generation
+proxy_epochs: 7        # proxy training epochs for fitness evaluation
+mutation_prob: 0.5     # probability of mutating a child
+C_init: 16             # initial channels

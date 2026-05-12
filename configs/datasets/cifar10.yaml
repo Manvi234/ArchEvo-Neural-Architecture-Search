@@ -1,0 +1,7 @@
+name: cifar10
+num_classes: 10
+image_size: 32
+proxy_train_size: 10000
+proxy_val_size: 2000
+mean: [0.4914, 0.4822, 0.4465]
+std: [0.2470, 0.2435, 0.2616]

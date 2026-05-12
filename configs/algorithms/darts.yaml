@@ -1,0 +1,8 @@
+name: darts
+order: first           # 'first' or 'second' (Hessian-vector product)
+lr_w: 0.025            # learning rate for network weights (SGD)
+lr_alpha: 3.0e-4       # learning rate for architecture weights (Adam)
+momentum: 0.9
+weight_decay: 3.0e-4
+grad_clip: 5.0
+epsilon: 0.01          # finite-difference epsilon for second-order DARTS

@@ -1,0 +1,9 @@
+name: isic
+num_classes: 7
+image_size: 224
+proxy_train_size: 5000
+proxy_val_size: 1000
+mean: [0.7012, 0.5517, 0.4875]
+std: [0.1411, 0.1526, 0.1699]
+# Note: Download ISIC 2018 Task 3 dataset from https://challenge.isic-archive.com/
+# Organise as data/isic/train/<diagnosis>/*.jpg and data/isic/val/<diagnosis>/*.jpg

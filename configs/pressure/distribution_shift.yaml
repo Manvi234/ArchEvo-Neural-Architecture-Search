@@ -1,0 +1,3 @@
+mode: distribution_shift
+lambda_: 0.0
+description: "Flag distribution-shift regime; evaluation uses OOD test sets"

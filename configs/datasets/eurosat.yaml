@@ -1,0 +1,10 @@
+name: eurosat
+num_classes: 10
+image_size: 64
+proxy_train_size: 10000
+proxy_val_size: 2000
+mean: [0.3444, 0.3803, 0.4078]
+std: [0.2026, 0.1365, 0.1155]
+# Note: Download EuroSAT from HuggingFace or https://zenodo.org/record/7711810
+# Organise as data/eurosat/train/<class>/*.jpg and data/eurosat/val/<class>/*.jpg
+# Or use: python -c "from archevo.data.datamodule import download_eurosat_from_huggingface; download_eurosat_from_huggingface('data/eurosat')"

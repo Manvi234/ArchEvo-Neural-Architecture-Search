@@ -1,0 +1,4 @@
+mode: latency
+lambda_: 0.1
+budget_flops: 100.0    # 100ms forward pass budget
+description: "Penalise architectures with slow inference (wall-clock time)"

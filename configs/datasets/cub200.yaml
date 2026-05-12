@@ -1,0 +1,9 @@
+name: cub200
+num_classes: 200
+image_size: 224
+proxy_train_size: 5994
+proxy_val_size: 1000
+mean: [0.4856, 0.4994, 0.4324]
+std: [0.2272, 0.2226, 0.2613]
+# Note: Download CUB-200-2011 from http://www.vision.caltech.edu/datasets/cub_200_2011/
+# Organise as data/cub200/train/<species>/*.jpg and data/cub200/val/<species>/*.jpg

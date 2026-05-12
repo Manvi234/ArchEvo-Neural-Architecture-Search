@@ -1,0 +1,15 @@
+search:
+  num_cells: 10
+  C_init: 16
+  proxy_epochs: 7
+  search_epochs: 50
+
+training:
+  batch_size: 64
+  eval_epochs: 100
+  lr: 0.025
+  weight_decay: 3.0e-4
+
+logging:
+  db_path: results/experiments.db
+  output_dir: results/

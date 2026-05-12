@@ -1,0 +1,4 @@
+mode: memory
+lambda_: 0.1
+budget_params: 1.0e6   # 1 million parameter budget
+description: "Penalise architectures with large parameter counts"

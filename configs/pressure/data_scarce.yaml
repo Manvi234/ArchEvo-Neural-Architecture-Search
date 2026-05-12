@@ -1,0 +1,4 @@
+mode: data_scarce
+lambda_: 0.0
+scarce_samples: 500    # use only this many training samples in proxy split
+description: "Evaluate NAS under data-scarce regime (small training set)"
