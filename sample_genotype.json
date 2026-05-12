@@ -1,0 +1,6 @@
+[
+  ["conv3", "skip"],
+  ["attention", "conv5", "skip"],
+  ["mlp_mixer", "conv3", "attention", "skip"],
+  ["conv5", "skip", "mlp_mixer", "conv3", "attention"]
+]
